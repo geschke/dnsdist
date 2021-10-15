@@ -1,8 +1,5 @@
 # geschke/dnsdist
 
-[![Image Size](https://images.microbadger.com/badges/image/geschke/dnsdist.svg)](https://microbadger.com/images/geschke/dnsdist)
-[![Version](https://images.microbadger.com/badges/version/geschke/dnsdist.svg)](https://microbadger.com/images/geschke/dnsdist)
-[![Docker Automated build](https://img.shields.io/docker/cloud/build/geschke/dnsdist)](https://hub.docker.com/r/geschke/dnsdist)
 
 This is a Docker image with DNSdist DNS loadbalancer.
 
