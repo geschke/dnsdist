@@ -14,7 +14,7 @@ To download the image run
 
 ## Configuration
 
-Due to the complexity there is no configuration by environment variables. Place your dnsdist.conf file into a local directory or use a Docker Configs file, then mount it to /etc/dnsdist/dnsdist.conf. 
+Due to the complexity there is no configuration by environment variables. Place your dnsdist.conf file into a local directory or use a Docker Configs file, then mount it to /etc/dnsdist/dnsdist.conf.
 
 ## Usage example
 

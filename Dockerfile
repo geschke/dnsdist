@@ -1,15 +1,15 @@
-FROM ubuntu:focal-20230308
+FROM ubuntu:jammy-20230308
 
 LABEL maintainer="Ralf Geschke <ralf@kuerbis.org>"
 
-LABEL last_changed="2023-04-01"
+LABEL last_changed="2023-04-02"
 
 
 # necessary to set default timezone Etc/UTC
 ENV DEBIAN_FRONTEND noninteractive
 
 
-# testing Ubuntu 20.04 focal, in case of errors, switch to 18.04 again
+# use Ubuntu 22.04 jammy
 RUN apt-get update \
   && apt-get -y upgrade \
   && apt-get -y dist-upgrade \
