@@ -1,5 +1,8 @@
 # geschke/dnsdist
 
+![Docker Pulls](https://img.shields.io/docker/pulls/geschke/dnsdist)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/geschke/dnsdist/latest)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/geschke/docker-dnsdist/docker-publish.yml)
 
 This is a Docker image with DNSdist DNS loadbalancer.
 
