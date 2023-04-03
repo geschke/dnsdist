@@ -18,6 +18,7 @@ RUN apt-get update \
   && apt-get install -y locales apt-utils \
   && localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8 \
   && apt-get install -y curl git gnupg dnsdist \
+  && apt-get -y upgrade \
   && rm -rf /var/lib/apt/lists/* 
 
 
